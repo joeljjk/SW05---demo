@@ -126,6 +126,16 @@ export class GuiModel {
                             }
                         },
                         {
+                            "type": "newButton",
+                            "name": { default: "Joel's Button"},
+                            "icon": "fa-user",
+                            "color": "red",
+                            "width": 3,
+                            "form" : {
+                                "form" : "ToDoForm"
+                            }
+                        },
+                        {
                             "type": "list",
                             "name": "ToDo",
                             "icon": "fa-user",
