@@ -35,6 +35,7 @@
     "heroku-postbuild": "tsc --project server/tsconfig.json && ng build"
   },
   "dependencies": {
+    "node-gyp": "10.1.0",
     "path-framework": "0.7.0-beta.13"
   },
   "devDependencies": {
